@@ -155,10 +155,8 @@ body {
 	&__ellipse3 {
 		display: block;
 		position: absolute;
-		transform: translateX(-50%);
-		width: 1278px;
+		width: 639px;
 		height: 1278px;
-		border-radius: 50%;
 		top: 156px;
 		background: radial-gradient(42.84% 42.84% at 50% 50%, rgba(143, 0, 255, 0.5) 0%, rgba(143, 0, 255, 0) 100%);
 		filter: blur(400px);
@@ -166,9 +164,11 @@ body {
 	}
 	&__ellipse1 {
 		left: 0;
+		border-radius: 0 639px 639px 0;
 	}
 	&__ellipse3 {
-		left: 100%;
+		border-radius: 639px 0 0 639px;
+		right: 0;
 	}
 }
 .button {
