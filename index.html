@@ -5,6 +5,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MOON-X</title>
 
+	<!--Отображение в поисковике SEO-->
+	<meta name="description" content="Описание"><!--не более 140 символов-->
+	<meta name="keywords" content="Ключевики"><!--не более 20ти слов. Ключевые фразы разделяем запятой.-->
+	<meta name="image" content="img/meta-img/favicon.ico">
+
+	<!--Парсинг социальными сетями-->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="MOON-X">
+	<meta property="og:description" content="Описание">
+	<meta property="og:image" content="img/meta-img/ms-icon-310x310.png">
+	<meta property="og:url" content="https://github.com/Konun32/atlant-gas-ex">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="MOON-X">
+	<meta name="twitter:title" content="MOON-X">
+	<meta name="twitter:description" content="Описание страницы">
+	<meta name="twitter:image" content="img/meta-img/ms-icon-310x310.png">
+
+	<!--Адрес текущей страницы-->
+	<link rel="canonical" href="">
+
+	<!--Иконки в браузере и на различных устройствах-->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/meta-img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/meta-img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/meta-img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/meta-img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/meta-img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/meta-img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/meta-img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/meta-img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/meta-img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/meta-img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/meta-img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/meta-img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/meta-img/favicon-16x16.png">
+	<link rel="manifest" href="img/meta-img/manifest.json">
+
+	<meta name="msapplication-TileImage" content="img/meta-img/ms-icon-144x144.png">
+	<!--Цвет сайта-->
+	<meta name="msapplication-TileColor" content="#0E0E0F">
+	<!--Цветовая тема сайта-->
+	<meta name="theme-color" content="black">
+
+	<!--Добавление сайта на рабочий стол телефона-->
+	<meta name="apple-mobile-web-app-title" content="MOON-X">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!--Отключение ссылки и стилей номера и адреса-->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+
 	<!--Подключение внешних ресурсов (стили, шрифты...)-->
 	<link rel="stylesheet" type="text/css" href="fonts/RoadRadio/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="fonts/Geometria/stylesheet.css">
@@ -25,20 +76,11 @@
 		<main class="page">
 			<section class="page__main-block main-block parallax">
 				<picture class="main-block__stars">
-					<source srcset="img/main-block/stars3.webp" media="(max-width: 420px)">
-					<source srcset="img/main-block/stars2.webp" media="(max-width: 1080px)">
-					<img src="img/main-block/stars.webp" alt="">
+					<source srcset="img/main-block/moon3.webp" media="(max-width: 620px)">
+					<source srcset="img/main-block/moon2.webp" media="(max-width: 1080px)">
+					<img src="img/main-block/moon.webp" alt="">
 				</picture>
-				<picture class="main-block__moonBig">
-					<source srcset="img/main-block/moonBig3.webp" media="(max-width: 420px)">
-					<source srcset="img/main-block/moonBig2.webp" media="(max-width: 1080px)">
-					<img src="img/main-block/moonBig.webp" alt="">
-				</picture>
-				<picture class="main-block__moonSmall">
-					<source srcset="img/main-block/moonSmall.webp" media="(min-width: 1700px)">
-					<img src="#" alt="">
-				</picture>
-				<picture class="main-block__magazine">
+				<picture class="main-block__magazine _anim-item _anim-no-hide">
 					<source srcset="img/main-block/magazine2.webp" media="(max-width: 1080px)">
 					<img src="img/main-block/magazine.webp" alt="">
 				</picture>
@@ -55,15 +97,16 @@
 					<source srcset="img/main-block/stones2.webp" media="(max-width: 1080px)">
 					<img src="img/main-block/stones.webp" alt="">
 				</picture>
-				<div class="main-block__ellipse1"></div>
-				<div class="main-block__ellipse2"></div>
-				<div class="main-block__ellipse3"></div>
 				<div class="main-block__container _container">
 					<div class="main-block__wrap">
-						<h1 class="main-block__title"><span class="big">ПОЛУЧИТЕ 10 000$</span>
-							<span class="small">на ваш демо-счет</span>
-							<span class="big">И МЕТОДИЧКУ ПО ТОРГОВЛЕ</span>
-						</h1>
+						<div class="main-block__title-wrap">
+							<h1 class="main-block__title">
+								<span class="big">ПОЛУЧИТЕ 10 000$</span>
+								<span class="small">на ваш демо-счет</span>
+								<span class="big">И МЕТОДИЧКУ ПО ТОРГОВЛЕ</span>
+							</h1>
+							<div class="main-block__subtitle subtitle subtitle_1">ПОЛУЧИТЕ 10 000$ ПОЛУЧИТЕ 10 000$ ПОЛУЧИТЕ 10 000$<br>И МЕТОДИЧКУ ПО ТОРГОВЛЕ И МЕТОДИЧКУ ПО ТОРГОВЛЕ</div>
+						</div>
 						<div class="main-block__button button">
 							<h2 class="button__title">При регистрации<br>на платформе MOON-X</h2>
 							<a href="#" class="button__btn btn">Зарегистрироваться</a>
@@ -81,32 +124,32 @@
 						</div>
 						
 						<div class="advantages__list">
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/01.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Фиксированные<br>низкие спреды</div>
 							</div>
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/02.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Быстрый<br>и беспроцентный<br>ввод и вывод средств</div>
 							</div>
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/03.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Криптовалютные<br>Digital-контракты</div>
 							</div>
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/04.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Большое количество<br>торговых активов</div>
 							</div>
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/05.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Торговый терминал<br>для Windows, MacOS, iOS и<br>Android</div>
 							</div>
-							<div class="advantages__advantage advantage">
+							<div class="advantages__advantage advantage _anim-item _anim-no-hide">
 								<img src="img/advantages/06.webp" alt="" class="advantage__img" loading="lazy">
 								<div class="advantage__allipse"></div>
 								<div class="advantage__text">Круглосуточная<br>техническая поддержка</div>
@@ -120,11 +163,12 @@
 					<div class="tools__wrap">
 						<div class="tools__title-wrap">
 							<h2 class="tools__title title">ТОРГОВЫЕ ИНСТРУМЕНТЫ</h2>
-							<div class="tools__subtitle subtitle">ТОРГОВЫЕ ИНСТРУМЕНТЫ ТОРГОВЫЕ ИНСТРУМЕНТЫ</div>
+							<div class="tools__subtitle subtitle subtitle_1">ТОРГОВЫЕ ИНСТРУМЕНТЫ ТОРГОВЫЕ ИНСТРУМЕНТЫ</div>
+							<div class="tools__subtitle subtitle subtitle_2">ТОРГОВЫЕ ТОРГОВЫЕ ТОРГОВЫЕ ТОРГОВЫЕ<br>ИСТРУМЕНТЫ ИНСТРУМЕНТЫ ИНСТРУМЕНТЫ</div>
 						</div>
 						<div class="tools__text">Торгуйте из любой точки мира вместе с MOON-X. Подключение ко всем популярным финансовым рынкам.</div>
 						<div class="tools__list">
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/01.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
 									<div class="tool__number">55</div>
@@ -133,7 +177,7 @@
 								</div>
 								<a href="#" class="tool__btn">Купить</a>
 							</div>
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/02.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
 									<div class="tool__number">47</div>
@@ -142,7 +186,7 @@
 								</div>
 								<a href="#" class="tool__btn">Купить</a>
 							</div>
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/03b.webp" src="img/1.png" alt="" class="tool__img-background">
 								<img data-src="img/tools/03.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
@@ -152,7 +196,7 @@
 								</div>
 								<a href="#" class="tool__btn">Купить</a>
 							</div>
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/04.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
 									<div class="tool__number">##</div>
@@ -161,7 +205,7 @@
 								</div>
 								<a href="#" class="tool__btn">Купить</a>
 							</div>
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/05.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
 									<div class="tool__number">08</div>
@@ -170,7 +214,7 @@
 								</div>
 								<a href="#" class="tool__btn">Купить</a>
 							</div>
-							<div class="tools__tool tool">
+							<div class="tools__tool tool _anim-item _anim-no-hide">
 								<img data-src="img/tools/06.webp" src="img/1.png" alt="" class="tool__img">
 								<div class="tool__body">
 									<div class="tool__number">10</div>
@@ -188,7 +232,8 @@
 					<div class="registration__wrap">
 						<div class="registration__title-wrap">
 							<h2 class="registration__title title">ПОРЯДОК РЕГИСТРАЦИИ</h2>
-							<div class="registration__subtitle subtitle">ПОРЯДОК РЕГИСТРАЦИИ ПОРЯДОК РЕГИСТРАЦИИ</div>
+							<div class="registration__subtitle subtitle subtitle_1">ПОРЯДОК РЕГИСТРАЦИИ ПОРЯДОК РЕГИСТРАЦИИ</div>
+							<div class="registration__subtitle subtitle subtitle_2">ПОРЯДОК ПОРЯДОК ПОРЯДОК ПОРЯДОК<br>РЕГИСТРАЦИИ РЕГИСТРАЦИИ РЕГИСТРАЦИИ</div>
 						</div>
 						<div class="registration__body">
 							<div class="registration__list">
@@ -229,15 +274,10 @@
 						</div>
 					</div>
 				</div>
-				<picture class="registration__stars">
-					<source data-srcset="img/registration/stars3.webp" srcset="img/1.png" media="(max-width: 620px)">
-					<source data-srcset="img/registration/stars2.webp" srcset="img/1.png" media="(max-width: 1080px)">
-					<img data-src="img/registration/stars.webp" src="img/1.png" alt="">
-				</picture>
 				<picture class="registration__moonBig">
-					<source data-srcset="img/registration/moonBig3.webp" srcset="img/1.png" media="(max-width: 620px)">
-					<source data-srcset="img/registration/moonBig2.webp" srcset="img/1.png" media="(max-width: 1080px)">
-					<img data-src="img/registration/moonBig.webp" src="img/1.png" alt="">
+					<source srcset="img/registration/moon3.webp" media="(max-width: 620px)">
+					<source srcset="img/registration/moon2.webp" media="(max-width: 950px)">
+					<img src="img/registration/moon.webp" alt="">
 				</picture>
 				<picture class="registration__money">
 					<source srcset="#" media="(max-width: 620px)">
@@ -248,7 +288,6 @@
 					<source data-srcset="img/registration/stones2.webp" srcset="img/1.png" media="(max-width: 1080px)">
 					<img data-src="img/registration/stones.webp" src="img/1.png" alt="">
 				</picture>
-				<div class="registration__ellipse"></div>
 			</section>
 		</main>
 	</div>
